@@ -94,6 +94,4 @@ if __name__ == "__main__":
     vocab_size = tokenizer.vocab_size
 
     model = MiniGPT2(vocab_size)
-    
-    # Eğitim yoksa, rastgele ağırlıklarla deneme yaparsın
     chat(model, tokenizer, steps=50)
